@@ -943,10 +943,10 @@ void loop()
         {
           int xValue = analogRead(VRxPIN);       
           int yValue = analogRead(VRyPIN);
-          xValue = xValue - JoyX;                               // Remove Stick drift on X position
-          yValue = yValue - JoyY;                               // Remove Stick drift on X position
-          int mouseX = map( xValue,-4095, 4095, -25, 25);       // map the X value to a range of movement for the mouse X, Changes input range to include new values
-          int mouseY = map( yValue,-4095, 4095, -25, 25);
+          // xValue = xValue - JoyX;                               // Remove Stick drift on X position
+          // yValue = yValue - JoyY;                               // Remove Stick drift on X position
+          int mouseX = map( xValue,0, JoyX*2, -25, 25);       // map the X value to a range of movement for the mouse X, Changes input range to include new values
+          int mouseY = map( yValue,0, JoyY*2, -25, 25);
           Mouse.move(mouseY, -mouseX, 0);
           startMillis = currentMillis;  //IMPORTANT to save the start time
         }
