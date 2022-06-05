@@ -80,19 +80,20 @@ Cross-platform keyboard and mouse via Bluetooth using joystick
   - The device reads joystick movements and translates them into text on the host device by using the quikwrite algorithm. The device detects that the joystick has moved out of the resting zone or neutral position, into the start zone which is the zone entered after leaving the neutral zone. The device then detects that the joystick has moved back into the resting zone, from the end zone which is the zone left before returning to the neutral zone. A table lookup is done, retrieving entry character = C[start*10+end], where C is a table that stores the character of the current character set. For example the sequence below would enter the character 'h'.
 
 ![QuikWriteKeyboard-and-Mouse-1](https://github.com/pdewar/QuikWriteKeyboard-and-Mouse/blob/media/images/character%20entry.jpeg)
+![QuikWriteKeyboard-and-Mouse-2](https://github.com/pdewar/QuikWriteKeyboard-and-Mouse/blob/d3831cabbfba351a5756c942e5c84242e2542ebe/images/quikwrite%20zones.jpeg)
 
   - Push button 1 to switch between character layouts
 
-![QuikWriteKeyboard-and-Mouse-2](https://github.com/pdewar/QuikWriteKeyboard-and-Mouse/blob/media/images/layout%201.jpeg) 
-![QuikWriteKeyboard-and-Mouse-3](https://github.com/pdewar/QuikWriteKeyboard-and-Mouse/blob/media/images/layout%202.jpeg)
+![QuikWriteKeyboard-and-Mouse-3](https://github.com/pdewar/QuikWriteKeyboard-and-Mouse/blob/media/images/layout%201.jpeg) 
+![QuikWriteKeyboard-and-Mouse-4](https://github.com/pdewar/QuikWriteKeyboard-and-Mouse/blob/media/images/layout%202.jpeg)
 
-![QuikWriteKeyboard-and-Mouse-4](https://github.com/pdewar/QuikWriteKeyboard-and-Mouse/blob/media/images/layout%203.jpeg) 
-![QuikWriteKeyboard-and-Mouse-5](https://github.com/pdewar/QuikWriteKeyboard-and-Mouse/blob/media/images/layout%204.jpeg)
+![QuikWriteKeyboard-and-Mouse-5](https://github.com/pdewar/QuikWriteKeyboard-and-Mouse/blob/media/images/layout%203.jpeg) 
+![QuikWriteKeyboard-and-Mouse-6](https://github.com/pdewar/QuikWriteKeyboard-and-Mouse/blob/media/images/layout%204.jpeg)
 
   - Push button 2 to initiate switch characters between layouts
 
-![QuikWriteKeyboard-and-Mouse-6](https://github.com/pdewar/QuikWriteKeyboard-and-Mouse/blob/media/images/Switch%20char%201st.jpeg)
-![QuikWriteKeyboard-and-Mouse-7](https://github.com/pdewar/QuikWriteKeyboard-and-Mouse/blob/media/images/Switch%20char%202nd.jpeg)
+![QuikWriteKeyboard-and-Mouse-7](https://github.com/pdewar/QuikWriteKeyboard-and-Mouse/blob/media/images/Switch%20char%201st.jpeg)
+![QuikWriteKeyboard-and-Mouse-8](https://github.com/pdewar/QuikWriteKeyboard-and-Mouse/blob/media/images/Switch%20char%202nd.jpeg)
   
   - Push button 3  
     - long press - to add keyboard shortcut for any special function key or a combination of special function keys such as Ctrl+Alt+Delete.
