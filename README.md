@@ -77,7 +77,7 @@ Cross-platform keyboard and mouse via Bluetooth using joystick
   - Switching functionality between keyboard and mouse is done by pushing button on joystick.
 
 #### Keyboard 
-  - The device reads joystick movements and translates them into text on the host device by using the quikwrite algorithm. The device detects that the joystick has moved out of the resting zone or neutral position, into the start zone which is the zone entered after leaving the neutral zone. The device then detects that the joystick has moved back into the resting zone, from the end zone which is the zone left before returning to the neutral zone. A table lookup is done, retrieving entry character = C[start*10+end], where C is a table that stores the character of the current character set.
+  - The device reads joystick movements and translates them into text on the host device by using the quikwrite algorithm. The device detects that the joystick has moved out of the resting zone or neutral position, into the start zone which is the zone entered after leaving the neutral zone. The device then detects that the joystick has moved back into the resting zone, from the end zone which is the zone left before returning to the neutral zone. A table lookup is done, retrieving entry character = C[start*10+end], where C is a table that stores the character of the current character set. For example the sequence below would enter the character 'h'.
 
 ![QuikWriteKeyboard-and-Mouse-1](https://github.com/pdewar/QuikWriteKeyboard-and-Mouse/blob/media/images/character%20entry.jpeg)
 
