@@ -5,7 +5,7 @@ Cross-platform keyboard and mouse via Bluetooth using joystick
 ## Getting Started
 
 ### Hardware requirements
-  - ESP32-Wroom 
+  - ESP-WROOM-32 38 PIN Development board, 
   - 3 Push buttons
   - Analog 2-axis Thumb Joystick with Select Button module
   - ILI9341 320x240 TFT 
